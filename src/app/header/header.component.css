@@ -1,0 +1,51 @@
+.header {
+    margin: 0;
+    padding: 0;
+    background: transparent url('../../assets/images/bg-set-rect.svg') 0px -200px no-repeat padding-box;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    color: #EEEEEE;
+}
+
+h1 {
+    font-family: 'Tangerine', cursive;
+    letter-spacing: 6px;
+    font-size: 76px;
+    text-shadow: 2px 3px 14px #EEEEEE;
+}
+
+h2 {
+    font-family: 'Benne', serif;
+    letter-spacing: 6px;
+    font-size: 28px;
+    line-height: 1;
+    text-decoration: overline;
+}
+
+.heading-section {
+    width: 50%;
+    margin-left: auto;
+    text-align: center;
+}
+
+.resume-down {  
+    display: inline-block;
+    margin: 10px auto;
+    background-color: #04009A;
+    border-radius: 0;
+    border: none;
+    color: #EEEEEE;
+    padding: 16px 20px;
+    font-size: 20px;
+    box-shadow: 1px 1px 15px #222831;
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+}
+
+.resume-down:hover {
+    background-color: rgba(4, 0, 154, 0.6);
+    box-shadow: 1px 1px 25px #222831;
+    text-shadow: 0.2px 0.2px 1px #EEEEEE;
+}
