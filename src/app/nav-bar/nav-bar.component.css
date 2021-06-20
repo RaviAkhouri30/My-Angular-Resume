@@ -133,3 +133,42 @@ ul li:hover {
 .social-icons i {
     font-size: 32px;
 }
+
+.brand-sm-screen {
+    display: none;
+}
+
+.menu-bar {
+    display: none;
+}
+
+@media (max-width: 1080px) {
+    .links {
+        display: none;
+    }
+
+    .social-icons{
+        display: none;
+    }
+
+    .brand-sm-screen {
+        display: inline-block;
+        margin: 0 3%;
+    }
+
+    .eye-container{
+        margin: auto;
+    }
+    .menu-bar {
+        color: #EEEEEE;
+        display: flex;
+        align-items: center;
+        margin-right: 3%;
+    }
+
+    .menu-bar i {
+        display: flex;
+        font-size: 46px;
+        align-self: center;
+    }
+}
