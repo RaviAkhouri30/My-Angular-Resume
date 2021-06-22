@@ -140,23 +140,39 @@ ul li:hover {
 
 .menu-bar {
     display: none;
+    cursor: pointer;
 }
 
 @media (max-width: 1080px) {
     .links {
+        margin: 0;
+        display: none;
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        background-color: #222831;
+    }
+    .links li {
+        display: block;
+        padding: 10px;
+        margin: 0;
+    }
+    .links li:hover {
+        background-color: #393E46;
+    }
+    .links .logo-li {
         display: none;
     }
-
-    .social-icons{
+    .social-icons {
         display: none;
     }
-
     .brand-sm-screen {
         display: inline-block;
         margin: 0 3%;
     }
-
-    .eye-container{
+    .eye-container {
         margin: auto;
     }
     .menu-bar {
@@ -165,10 +181,12 @@ ul li:hover {
         align-items: center;
         margin-right: 3%;
     }
-
     .menu-bar i {
         display: flex;
         font-size: 46px;
         align-self: center;
+    }
+    .fa-bars:before {
+        margin: 6px 10px;
     }
 }

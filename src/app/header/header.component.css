@@ -29,7 +29,7 @@ h2 {
     text-align: center;
 }
 
-.resume-down {  
+.resume-down {
     display: inline-block;
     margin: 10px auto;
     background-color: #04009A;
@@ -50,43 +50,120 @@ h2 {
     text-shadow: 0.2px 0.2px 1px #EEEEEE;
 }
 
-@media (max-width: 1600px){
+@media (max-width: 1600px) {
     .header {
         background-size: 1200px;
         background-position: 0px;
     }
 }
 
-@media (max-width: 1080px){
+@media (max-width: 1080px) {
     .header {
         background-size: 900px;
         background-position: 0px;
     }
-    .heading-section{
+    .heading-section {
         width: 65%;
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 1020px) {
+    .header {
+        background-size: 700px;
+        background-position: 0px;
+    }
+    .heading-section {
+        width: 70%;
+    }
+}
+
+@media (max-width: 900px) {
+    .header {
+        background-size: 550px;
+        background-position: 0px;
+    }
+    .heading-section {
+        width: 70%;
+    }
+    h2 {
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .header {
+        background-size: 400px;
+        background-position: 0px;
+    }
+    .heading-section {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
     .header {
         background-size: 400px;
         background-position: 0px 90px;
     }
-    .heading-section{
+    .heading-section {
         width: 100%;
     }
 }
 
-@media (max-width: 480px){
+@media (max-width: 560px) {
     .header {
         background-size: 400px;
         background-position: 0px 70px;
     }
-    .heading-section{
+    .heading-section {
         width: 100%;
     }
-
     h1 {
         font-size: 54px;
+    }
+}
+
+@media (max-width: 425px) {
+    .header {
+        background-size: 300px;
+        background-position: 0px 75px;
+    }
+    .heading-section {
+        width: 100%;
+    }
+    h1 {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 375px) {
+    .header {
+        background-size: 300px;
+        background-position: 0px 75px;
+    }
+    .heading-section {
+        width: 100%;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        background-size: 300px;
+        background-position: 0px 95px;
+    }
+    .heading-section {
+        width: 100%;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 14px;
     }
 }

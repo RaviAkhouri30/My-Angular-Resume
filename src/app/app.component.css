@@ -5,3 +5,10 @@ header {
     margin: 0;
     padding: 0;
 }
+
+@media (max-width: 560px){
+    header {
+        min-height: 500px;
+        height: 600px;
+    }
+}

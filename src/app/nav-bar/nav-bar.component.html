@@ -1,6 +1,13 @@
+<!-- 
+    last updated : 23-06-2021 00:12
+    
+    Changelog dated 23-06-2021 00:12:-
+    1. implemented mobile view menu bar functionality.
+ -->
+
 <nav class="nav-bar">
     <img src="../../assets/images/icons/android-chrome-192x192.png" alt="logo" class="logo brand-sm-screen">
-    <ul class="links">
+    <ul class="links" (click)="onLinkClick()">
         <li class="logo-li">
             <img src="../../assets/images/icons/android-chrome-192x192.png" alt="logo" class="logo">
         </li>
@@ -37,8 +44,8 @@
         </li>
     </ul>
 
-    <div class="menu-bar">
+    <div class="menu-bar" (click)="onMenuClick()">
         <i class="fas fa-bars"></i>
     </div>
-    
+
 </nav>
