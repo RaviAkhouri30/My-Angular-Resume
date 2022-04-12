@@ -32,7 +32,7 @@ h2 {
 .resume-down {
     display: inline-block;
     margin: 10px auto;
-    background-color: #04009A;
+    background-color: red;
     border-radius: 0;
     border: none;
     color: #EEEEEE;
