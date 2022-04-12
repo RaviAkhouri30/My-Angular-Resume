@@ -1,4 +1,4 @@
 {
-    "appService.defaultWebAppToDeploy": "/subscriptions/c9a54fc4-3749-4827-ad0a-df506ba33796/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/resume-ravi",
+    "appService.defaultWebAppToDeploy": "None",
     "appService.deploySubpath": "dist\\my-angular-resume"
 }
